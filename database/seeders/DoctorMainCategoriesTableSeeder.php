@@ -1,0 +1,236 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class DoctorMainCategoriesTableSeeder extends Seeder
+{
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
+    public function run()
+    {
+        
+
+        \DB::table('doctor_main_categories')->delete();
+        
+        \DB::table('doctor_main_categories')->insert(array (
+            0 => 
+            array (
+                'id' => 2,
+                'name' => '{"en":"Cardiology","hi":"हृदय रोग विज्ञान","ar":"طب القلب"}',
+                'description' => '{"en":"<p>.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</p>","hi":"<p>.लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</p>","ar":"<p>.لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</p>"}',
+                'slug' => 'cardiology-2',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66a0f004a83c4.png',
+                'image' => '/images/doctor_main_categories/66a0f004a82bc.png',
+                'created_at' => '2024-07-09 13:03:29',
+                'updated_at' => '2024-10-03 17:14:52',
+                'deleted_at' => NULL,
+            ),
+            1 => 
+            array (
+                'id' => 3,
+                'name' => '{"en":"Neurology","hi":"तंत्रिका विज्ञान","ar":"علم الأعصاب"}',
+                'description' => '{"en":"<p>.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</p>","hi":"<p>.लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</p>","ar":"<p>.لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</p>"}',
+                'slug' => 'neurology-3',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66a0f1001c709.png',
+                'image' => '/images/doctor_main_categories/66a0f1001c649.png',
+                'created_at' => '2024-07-09 13:05:38',
+                'updated_at' => '2024-10-03 17:16:12',
+                'deleted_at' => NULL,
+            ),
+            2 => 
+            array (
+                'id' => 4,
+                'name' => '{"en":"Orthopedics","hi":"हड्डी रोग विज्ञान","ar":"جراحة العظام"}',
+                'description' => '{"en":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</p>","hi":"<p>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</p>","ar":"<p>لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</p>"}',
+                'slug' => 'orthopedics-4',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66a0f280aaf48.png',
+                'image' => '/images/doctor_main_categories/66a0f280aadbe.png',
+                'created_at' => '2024-07-09 13:41:18',
+                'updated_at' => '2024-10-03 17:17:21',
+                'deleted_at' => NULL,
+            ),
+            3 => 
+            array (
+                'id' => 5,
+                'name' => '{"en":"Pediatrics","hi":"बाल चिकित्सा","ar":"طب الأطفال"}',
+                'description' => '{"en":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</p>","hi":"<p>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</p>","ar":"<p>لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</p>"}',
+                'slug' => 'pediatrics-5',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66a0f31e6ab7f.png',
+                'image' => '/images/doctor_main_categories/66a0f31e6aacc.png',
+                'created_at' => '2024-07-09 13:43:22',
+                'updated_at' => '2024-10-03 17:17:38',
+                'deleted_at' => NULL,
+            ),
+            4 => 
+            array (
+                'id' => 6,
+                'name' => '{"en":"Urologist","hi":"पारिस्थितिकी","ar":"مسابقة معلومات"}',
+                'description' => '{"en":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</p>","hi":"<p>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</p>","ar":"<p>لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</p>"}',
+                'slug' => 'urologist-6',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66a0f5176d604.png',
+                'image' => '/images/doctor_main_categories/66a0f5176d546.png',
+                'created_at' => '2024-07-24 16:52:24',
+                'updated_at' => '2024-10-03 17:18:58',
+                'deleted_at' => NULL,
+            ),
+            5 => 
+            array (
+                'id' => 7,
+                'name' => '{"en":"Gastrologist","hi":"123","ar":"123"}',
+                'description' => '{"en":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</p>","hi":"<p>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</p>","ar":"<p>لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</p>"}',
+                'slug' => 'gastrologist-7',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66a0f55a1cee0.png',
+                'image' => '/images/doctor_main_categories/66a0f55a1cd94.png',
+                'created_at' => '2024-07-24 16:54:45',
+                'updated_at' => '2024-10-03 17:15:04',
+                'deleted_at' => NULL,
+            ),
+            6 => 
+            array (
+                'id' => 8,
+                'name' => '{"en":"Psychiatrists","hi":"क्विज़ प्रतियोगिता","ar":"التصميم الصناعي"}',
+                'description' => '{"en":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</p>","hi":"<p>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</p>","ar":"<p>لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</p>"}',
+                'slug' => 'psychiatrists-8',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66a0f3b5322ca.png',
+                'image' => '/images/doctor_main_categories/66a0f3b532146.png',
+                'created_at' => '2024-07-24 16:55:55',
+                'updated_at' => '2024-10-03 17:18:22',
+                'deleted_at' => NULL,
+            ),
+            7 => 
+            array (
+                'id' => 9,
+                'name' => '{"en":"Optamologis","hi":"कृत्रिम बुद्धिमत्ता","ar":"مسابقة معلومات"}',
+                'description' => '{"en":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</p>","hi":"<p>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</p>","ar":"<p>لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</p>"}',
+                'slug' => 'optamologis-9',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66a0f9ce55a6c.png',
+                'image' => '/images/doctor_main_categories/66a0f9ce55987.png',
+                'created_at' => '2024-07-24 16:58:27',
+                'updated_at' => '2024-10-03 17:17:04',
+                'deleted_at' => NULL,
+            ),
+            8 => 
+            array (
+                'id' => 10,
+                'name' => '{"en":"Physicians","hi":"पारिस्थितिकी","ar":"علم البيئة"}',
+                'description' => '{"en":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</p>","hi":"<p>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</p>","ar":"<p>لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</p>"}',
+                'slug' => 'physicians-10',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66a0f627f1930.png',
+                'image' => '/images/doctor_main_categories/66a0f627f185c.png',
+                'created_at' => '2024-07-24 16:59:02',
+                'updated_at' => '2024-10-03 17:18:01',
+                'deleted_at' => NULL,
+            ),
+            9 => 
+            array (
+                'id' => 11,
+                'name' => '{"en":"Gynecologist","hi":"123","ar":"123"}',
+                'description' => '{"en":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</p>","hi":"<p>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</p>","ar":"<p>لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</p>"}',
+                'slug' => 'gynecologist-11',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66a0f68ded3b0.png',
+                'image' => '/images/doctor_main_categories/66a0f68ded2dc.png',
+                'created_at' => '2024-07-24 17:00:03',
+                'updated_at' => '2024-10-03 17:15:16',
+                'deleted_at' => NULL,
+            ),
+            10 => 
+            array (
+                'id' => 12,
+                'name' => '{"en":"Radiology","hi":"रेडियोलॉजी","ar":"الأشعة"}',
+                'description' => '{"en":"<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</strong></p>","hi":"<p><strong>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</strong></p>","ar":"<p><strong>لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</strong></p>"}',
+                'slug' => 'radiology-12',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66e16f4f83fc9.png',
+                'image' => '/images/doctor_main_categories/66e16f4f83987.png',
+                'created_at' => '2024-09-11 15:22:07',
+                'updated_at' => '2024-10-03 17:18:45',
+                'deleted_at' => NULL,
+            ),
+            11 => 
+            array (
+                'id' => 13,
+                'name' => '{"en":"Oncology","hi":"ऑन्कोलॉजी","ar":"الأورام"}',
+                'description' => '{"en":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</p>","hi":"<p>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</p>","ar":"<p>لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</p>"}',
+                'slug' => 'oncology-13',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66e16fffe689a.png',
+                'image' => '/images/doctor_main_categories/66e16fffe66da.png',
+                'created_at' => '2024-09-11 15:25:03',
+                'updated_at' => '2024-10-03 17:16:39',
+                'deleted_at' => NULL,
+            ),
+            12 => 
+            array (
+                'id' => 14,
+                'name' => '{"en":"Nephrologist","hi":"नेफ्रोलॉजिस्ट","ar":"طبيب كلى"}',
+                'description' => '{"en":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</p>","hi":"<p>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</p>","ar":"<p>لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</p>"}',
+                'slug' => 'nephrologist-14',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66e80d52bf4e0.png',
+                'image' => '/images/doctor_main_categories/66e80d52bf119.png',
+                'created_at' => '2024-09-16 15:49:54',
+                'updated_at' => '2024-10-03 17:15:45',
+                'deleted_at' => NULL,
+            ),
+            13 => 
+            array (
+                'id' => 15,
+                'name' => '{"en":"Obstetrician","hi":"प्रसूति चिकित्सक","ar":"طبيب توليد"}',
+                'description' => '{"en":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</p>","hi":"<p>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</p>","ar":"<p>لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</p>"}',
+                'slug' => 'obstetrician-15',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66e80de1899ac.png',
+                'image' => '/images/doctor_main_categories/66e80de1897fe.png',
+                'created_at' => '2024-09-16 15:52:17',
+                'updated_at' => '2024-10-03 17:16:25',
+                'deleted_at' => NULL,
+            ),
+            14 => 
+            array (
+                'id' => 16,
+                'name' => '{"en":"Hospitalist","hi":"चिकित्सालय चिकित्सक","ar":"طبيب المستشفى"}',
+                'description' => '{"en":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis ante ut purus eleifend vehicula. Cras vel diam elit. Nullam scelerisque, nisi sed dignissim vehicula, sapien lacus fringilla urna, at rhoncus ex lorem vitae magna. Nam fermentum, purus sed consequat vulputate, lorem sapien dictum lorem, vitae euismod augue risus non mi. In hac habitasse platea dictumst. Donec a orci mauris. Pellentesque nec sem libero. Vestibulum fringilla neque ut est efficitur aliquet. Nulla facilisi. Fusce et ligula vitae lorem cursus aliquam. Aliquam a erat a mi bibendum molestie. Phasellus ut ex a justo dignissim scelerisque sit amet sed libero. Duis egestas, mi non dapibus hendrerit, libero nunc tincidunt orci, in dignissim ex mi a augue. Donec sed nulla in elit gravida venenatis et non augue. Pellentesque et libero quis lorem convallis viverra. Etiam fermentum sapien turpis, vel posuere velit varius ut.</p>","hi":"<p>लोरेम इप्सम डोलर सिट अमेट, कॉन्सेकट्यूर एडिपिसिंग एलीट. प्रेज़ेंट फसिलिसिस अंते उत पुरुस एलीफेंड व्हीकुला. क्रास वेल डायम एलीट. नुल्लम स्केलरिस्क, निसी सेड डिग्निस्सिम व्हीकुला, सैपियन लकुस फ्रिंजिल्ला उरना, एट रोंकस एक्स लोरेम विटे माग्ना. नाम फेर्मेंटुम, पुरुस सेड कंसक्वाट वुल्पुटेट, लोरेम सैपियन डिक्टम लोरेम, विटे एयूसमोड औगुए रीसस नॉन मी. इन हक हबितास्से प्लाटेआ डिक्टुमस्ट. डोनेक अ ओर्की मौरिस. पेल्लेंटेस्के नेक सेम लिबरो. वेस्टिबुलम फ्रिंजिल्ला नेकुए उत एस्ट एफिकितुर अलिक्वेट. नुल्ला फासिलिसि. फ्यूस्के एट लिगुला विटे लोरेम कर्सस अलिक्वाम. आलिक्वाम अ एराट अ मि बिबेंडम मोलस्टिये. फासेल्लस उत एक्स अ जस्टो डिग्निस्सिम स्केलरिस्क सिट अमेट सेड लिबरो. डुइस एगेस्टास, मि नॉन डापिबुस हेंड्रेरिट, लिबरो नुंक टिन्सीडुंट ऑर्की, इन डिग्निस्सिम एक्स मि अ औगुए. डोनेक सेड नुल्ला इन एलीट ग्राविडा विनेनेटिस एट नॉन औगुए.</p>","ar":"<p>لوريم إيبسوم دولور سيت أميت، كونسكتتور أديبيسينغ إليت. بريسنت فاسيليسيس أنتي أوت بوروس إليفند فيكولا. كراس فيل ديام إليت. نولام سكيلريسكي، نيسي سيد ديغنيسيم فيكولا، سابين لاكوس فرنجيلا أورنا، أت رونكوس إكس لوريم فيتاي ماجنا. نام فيرمينتوم، بوروس سيد كونسكووت فولووتات، لوريم سابين ديكتوم لوريم، فيتاي إويسمود أوغي ريسوس نون مي. إن هاك هابيتاس بلاتيا ديكتومست. دونيك أ أوركي موريس. بيلينتسكي نيك سيم ليبيرو. فيستيبيولوم فرنجيلا نيكوي أوت إيست إفيكيتور أليكويت. نولا فاسيليسي. فوسكي إت ليجولا فيتاي لوريم كورسوس أليكوام. أليكوام أ إيرات أ مي بيبندم مولستيي. فاسيليس أوت إكس أ جوستو ديغنيسيم سكيلريسكي سيت أميت سيد ليبيرو. دويس إيغيتاس، مي نون دابيبوس هندريريت، ليبيرو ننك تنسيدونت أوركي، إن ديغنيسيم إكس مي أ أوغ</p>"}',
+                'slug' => 'hospitalist-16',
+                'is_active' => 1,
+                'is_featured' => 1,
+                'icon' => '/images/doctor_main_categories/66e80e7628135.png',
+                'image' => '/images/doctor_main_categories/66e80e7627f97.png',
+                'created_at' => '2024-09-16 15:54:46',
+                'updated_at' => '2024-10-03 17:15:30',
+                'deleted_at' => NULL,
+            ),
+        ));
+        
+        
+    }
+}

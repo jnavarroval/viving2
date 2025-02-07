@@ -1,0 +1,1144 @@
+// body,
+// html {
+//     height: 100%;
+//     z-index: 1;
+// }
+.page-content {
+    background-color: $body-bg;
+    position: relative;
+    z-index: 1;
+}
+
+.doctor-profile-img {
+    width: 140px;
+    height: 170px;
+}
+
+.custom-padding {
+    padding: 0.625rem 1.625rem;
+}
+
+.shadow-find {
+    box-shadow: 0px 20px 20px 0px rgba(55, 132, 166, 0.2);
+}
+.shadow-find-dk {
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.2);
+}
+.group-address {
+    .form-select {
+        background-size: 20px 20px !important;
+    }
+}
+
+// .h-section {
+//     min-height: 450px;
+// }
+
+.department {
+    position: static !important;
+    .dropdown-menu-center {
+        left: 50% !important;
+        right: auto !important;
+        text-align: center !important;
+        transform: translate(-50%, 0) !important;
+        box-shadow: -2px 2px 29px 2px rgba(0, 0, 0, 0.15);
+    }
+    .dropdown-menu {
+        width: 1033px;
+        margin-top: 40px;
+        border: 0px;
+        border-radius: 15px;
+        padding: 1.375rem;
+        left: 15%;
+
+        .card-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50px;
+            background-color: #ebf3f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icon {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .card:hover {
+        box-shadow: -2px 2px 29px 2px rgba(0, 0, 0, 0.12);
+        cursor: pointer;
+    }
+}
+
+// .department:hover {
+//     .dropdown-menu {
+//         display: block;
+//     }
+// }
+
+.doctors {
+    position: static !important;
+    .dropdown-menu-center {
+        left: 50% !important;
+        right: auto !important;
+        text-align: center !important;
+        transform: translate(-50%, 0) !important;
+        box-shadow: -2px 2px 29px 2px rgba(0, 0, 0, 0.15);
+    }
+    .dropdown-menu {
+        width: 1033px;
+        margin-top: 40px;
+        border: 0px;
+        border-radius: 15px;
+        padding: 1.375rem;
+        left: 15%;
+
+        .card {
+            .doctor-profile {
+                width: 225px;
+                height: 240px;
+                margin: 0px auto;
+            }
+        }
+    }
+}
+.ehr-img {
+    width: 380px;
+}
+
+.ehr-buttons {
+    .nav-pills .nav-link {
+        border: 1px solid #294481;
+        background-color: transparent;
+        color: #294481;
+        font-size: 16px;
+        font-weight: 700 !important;
+        border-radius: 10px;
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show > .nav-link {
+        background-color: $primary;
+        color: white;
+        transition: all 0.5ms ease-in;
+    }
+}
+.card-cal {
+    width: 170px;
+    height: 40px;
+    background-color: #f4f9fd;
+}
+// .doctors:hover {
+//     .dropdown-menu {
+//         display: block;
+//     }
+// }
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: inherit !important;
+}
+
+.heading-symbol {
+    width: 300px;
+}
+
+.rounded-6 {
+    border-radius: 30px;
+}
+
+.radius-15 {
+    border-radius: 15px;
+}
+.bar-search-doctor {
+    height: 246px;
+
+    .bar {
+        height: 64px;
+    }
+}
+
+.fs-custom-1 {
+    font-size: 36px;
+}
+
+.fs-22px {
+    font-size: 22px;
+}
+
+.btn-padding {
+    padding: 0.55rem 0.875rem;
+}
+
+.border-upload {
+    border: 2px dashed #000000;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 70px 50px;
+}
+
+.radius-50 {
+    border-radius: 50px;
+}
+
+.profile-accordian {
+    --bs-accordion-btn-icon-width: 20px !important;
+
+    .accordion-item {
+        background-color: #ebf3f6;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        border-radius: 20px;
+    }
+    .accordion-header {
+        border-radius: 20px;
+        .accordion-button {
+            &.collapsed {
+                background-color: #ebf3f6;
+                border-radius: 20px;
+                color: $primary;
+                font-weight: bold;
+                font-size: 1.35rem;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            &:not(.collapsed) {
+                background-color: $primary;
+                border-radius: 20px;
+                color: #f2f2f2;
+                font-weight: bold;
+                font-size: 1.35rem;
+                padding-top: 20px;
+                padding-bottom: 20px;
+
+                &::after {
+                    filter: invert(100%);
+                }
+            }
+        }
+    }
+
+    .accordion-body {
+        background-color: #ebf3f6;
+        color: #696868;
+        font-size: 16px;
+        font-weight: normal;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+
+.info-tabs {
+    .nav-pills .nav-link.active,
+    .nav-pills .show > .nav-link {
+        background-color: transparent;
+        color: black;
+        border-bottom: 2px solid $primary;
+        border-radius: 0px;
+    }
+    .nav-pills {
+        border-bottom: 1px solid rgba($color: $primary, $alpha: 0.5);
+    }
+    .nav-link {
+        color: black;
+        font-size: 18px;
+        font-weight: 500 !important;
+        border-radius: 0px;
+        padding-bottom: 16px;
+    }
+}
+.address-details,
+.home-address {
+    .form-group {
+        margin-bottom: 25px;
+        label {
+            font-size: 18px;
+            font-weight: normal;
+            color: black;
+            margin-bottom: 18px;
+        }
+        .form-control,
+        .form-select {
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            height: 55px;
+            font-size: 18px;
+
+            scrollbar-width: none;
+        }
+
+        .form-select {
+            background-image: url(../js/images/icons/selectinput.svg) !important;
+            background-size: 15px 15px !important;
+        }
+    }
+}
+.form-inputs {
+    .multiselect {
+        border: 1px solid rgba(0, 0, 0, 0.3) !important;
+        border-radius: 20px !important;
+        min-height: 55px !important;
+
+        .multiselect-search {
+            background: transparent;
+        }
+
+        .multiselect-tag {
+            background-color: #294481;
+            border-radius: 100px;
+            height: 37px;
+            /* padding: 0px 11px; */
+            /* display: flex; */
+            /* justify-content: center; */
+            font-size: 18px;
+            padding-left: 15px;
+            padding-right: 8px;
+        }
+    }
+
+    .form-group {
+        margin-bottom: 25px;
+        label {
+            font-size: 18px;
+            font-weight: normal;
+            color: black;
+            margin-bottom: 18px;
+        }
+        .form-control,
+        .form-select {
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            height: 55px;
+            font-size: 18px;
+            scrollbar-width: none;
+        }
+
+        .form-select {
+            background-image: url(../js/images/icons/selectinput.svg) !important;
+            background-size: 15px 15px !important;
+        }
+    }
+}
+
+.prescription-input {
+    .multiselect {
+        border: 1px solid rgba(0, 0, 0, 0.3) !important;
+        border-radius: 20px !important;
+        min-height: 55px !important;
+
+        .multiselect-search {
+            background: transparent;
+        }
+
+        .multiselect-tag {
+            background-color: #294481;
+            border-radius: 100px;
+            height: 37px;
+            /* padding: 0px 11px; */
+            /* display: flex; */
+            /* justify-content: center; */
+            font-size: 18px;
+            padding-left: 15px;
+            padding-right: 8px;
+        }
+    }
+
+    .form-group {
+        margin-bottom: 25px;
+        label {
+            font-size: 18px;
+            font-weight: normal;
+            color: black;
+            margin-bottom: 18px;
+        }
+        .form-control,
+        .form-select {
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            height: 55px;
+            font-size: 18px;
+            scrollbar-width: none;
+        }
+
+        .form-select {
+            background-image: url(../js/images/icons/selectinput.svg) !important;
+            background-size: 15px 15px !important;
+        }
+    }
+}
+
+.social-inputs {
+    label {
+        font-size: 18px;
+        font-weight: normal;
+        color: black;
+        margin-bottom: 18px;
+    }
+    .form-group {
+        border: 1px solid rgba($color: #000000, $alpha: 0.2);
+        border-radius: 20px !important;
+        height: 55px;
+        margin-bottom: 15px;
+    }
+}
+
+.decription-content {
+    .form-group {
+        .form-control {
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            height: 150px !important;
+            font-size: 18px !important;
+
+            scrollbar-width: none;
+        }
+    }
+}
+
+.auth-input:valid:not(:focus) {
+    background-color: #f4f9fd !important;
+}
+
+// .carousel__prev-button::before {
+//   content: '';
+//   display: inline-block;
+//   width: 24px;
+//   height: 24px;
+//   background: url('/path-to-your-svg/prev-icon.svg');
+//   background-size: contain;
+// }
+
+// .carousel__next-button::before {
+//   content: '';
+//   display: inline-block;
+//   width: 24px;
+//   height: 24px;
+//   background: url('/path-to-your-svg/next-icon.svg');
+//   background-size: contain;
+// }
+
+// .carousel__prev-button,
+// .carousel__next-button {
+//   background: none;
+//   border: none;
+// }
+
+.display-7 {
+    font-size: 36px;
+}
+
+.about {
+    li {
+        margin-bottom: 8px;
+    }
+    ul {
+        padding-left: 1rem;
+    }
+    li::marker {
+        color: $primary;
+    }
+
+    .hvr-float {
+        .card {
+            background-color: white !important;
+            -webkit-box-shadow: -3px 5px 39px 2px rgba(0, 0, 0, 0.1);
+            -moz-box-shadow: -3px 5px 39px 2px rgba(0, 0, 0, 0.1);
+            box-shadow: -3px 5px 39px 2px rgba(0, 0, 0, 0.1);
+
+            .icon-back {
+                background-color: white !important;
+            }
+        }
+    }
+}
+
+.text-paragraphcolor {
+    color: $paragraphcolor;
+}
+.doctortabs {
+    // .nav-link::after {
+    //     content: "|";
+    //     background-color: black;
+    //     font-size: 10px;
+    // }
+    .nav-item .nav-link {
+        font-size: 20px;
+    }
+    .nav-item .nav-link.active {
+        border-bottom: 2px solid $primary !important;
+        background-color: transparent !important;
+        border-radius: 0px;
+        color: white;
+    }
+}
+
+.rounded-20 {
+    border-radius: 20px;
+}
+
+.vr {
+    display: inline-block;
+    align-self: stretch;
+    width: 1px;
+    height: 1.2em;
+    background-color: black;
+    opacity: 1;
+    margin-top: 7px;
+}
+
+.star-rating {
+    gap: 8px;
+}
+
+.p-7 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.pt-7 {
+    padding-top: 85px;
+}
+
+.doctor-head-img,
+.featured-clinic-doctors {
+    .carousel .carousel__next {
+        background-color: #e1edf4;
+        padding: 0.8rem;
+        border: none;
+    }
+    .carousel .carousel__prev {
+        background-color: #e1edf4;
+        padding: 0.8rem;
+    }
+    .carousel__icon {
+        fill: black;
+        border: none;
+    }
+
+    .card-custom {
+        position: absolute;
+        right: -120px;
+        top: 75px;
+    }
+}
+.px-6 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.mb-6 {
+    margin-bottom: 80px;
+}
+
+.avatar-icon {
+    width: 50px;
+    height: 50px;
+}
+.avatar-canvas-icon {
+    width: 150px;
+    height: 150px;
+}
+
+.spotlight {
+    height: 850px;
+}
+
+.profile {
+    height: 500px;
+}
+
+.head-img {
+    width: 700px;
+}
+
+.w-icon {
+    width: 32px;
+    height: 32px;
+}
+
+input[type="number"]::placeholder {
+    font-size: 18px !important;
+    color: #2d2d2d;
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: #2d2d2d;
+}
+
+.progress-bar {
+    background-color: #2196f3; /* Blue color */
+    height: 15px;
+}
+
+.progress-circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.progress-circle.active {
+    background-color: $primary;
+}
+
+.progress-circle i {
+    font-size: 34px;
+    color: white;
+}
+
+.progress-text {
+    font-size: 12px;
+}
+
+.line {
+    height: 4px;
+    background-color: gray;
+}
+
+.img-doctor-tab {
+    width: 100%;
+    height: 340px;
+}
+.input-ehr {
+    background-color: #ebf3f6;
+    border: 1px solid gray !important;
+}
+.width {
+    width: 70px !important;
+    height: 70px;
+}
+
+.custom-offcanvas {
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 250px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+    .offcanvas-body {
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+
+        &::-webkit-scrollbar {
+            display: none !important; /* Safari and Chrome */
+        }
+    }
+
+    .nav-class {
+        .nav-pills .nav-link.active {
+            background: transparent;
+            border-bottom: 1px solid $primary !important;
+        }
+    }
+    .multiselect {
+        background-color: #ebf3f6;
+        border: 1px solid gray !important;
+        border-radius: 16px !important;
+        height: auto;
+
+        .multiselect-tags-search {
+            background: transparent;
+            color: #2d2d2d !important;
+        }
+
+        .multiselect-caret {
+            background-color: $primary;
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .bg-none {
+        .multiselect {
+            background-color: #ebf3f6;
+            border: 1px solid gray !important;
+            border-radius: 16px !important;
+            height: auto;
+        }
+
+        .multiselect-tags-search {
+            background: transparent;
+            color: #2d2d2d !important;
+        }
+
+        .multiselect-caret {
+            background-color: $primary;
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    .form-control {
+        background-color: #ebf3f6;
+        border: 1px solid gray !important;
+        border-radius: 16px !important;
+    }
+
+    .form-select {
+        background-color: #ebf3f6;
+        border: 1px solid gray !important;
+        border-radius: 16px !important;
+    }
+}
+.multi {
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    border-radius: 20px;
+    .multiselect-caret {
+        mask-image: url(/resources/js/images/icons/down.svg);
+        width: 23px;
+        margin-right: 1.5rem;
+    }
+    .multiselect-search {
+        background: transparent;
+        box-shadow: none;
+    }
+    .multiselect-wrapper {
+        background: transparent;
+    }
+    .multiselect-dropdown is-hidden {
+        background: transparent;
+    }
+    .multiselect-option-2 {
+        background: transparent;
+    }
+}
+
+.ehr-listing {
+    .multiselect {
+        border: 1px solid rgba(0, 0, 0, 0.3) !important;
+        border-radius: 20px !important;
+        min-height: 55px !important;
+        .multiselect-search {
+            box-shadow: none;
+        }
+        .multiselect-tag {
+            background-color: #294481;
+            border-radius: 100px;
+            height: 37px;
+            /* padding: 0px 11px; */
+            /* display: flex; */
+            /* justify-content: center; */
+            font-size: 18px;
+            padding-left: 15px;
+            padding-right: 8px;
+        }
+    }
+}
+
+.profile-canvas {
+    .offcanvas {
+        margin-top: 6.25rem !important;
+        border-top-left-radius: 18px;
+        border-bottom-left-radius: 18px;
+        border: none;
+        margin-bottom: 2.5rem;
+
+        .offcanvas-header {
+            background-color: #e5f0f9;
+            height: 280px;
+            border-top-left-radius: 18px;
+            border-bottom-left-radius: 18px;
+        }
+
+        .offcanvas-body {
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none; /* Internet Explorer 10+ */
+
+            &::-webkit-scrollbar {
+                display: none !important; /* Safari and Chrome */
+            }
+        }
+
+        .navbar-nav {
+            .nav-items {
+                a {
+                    color: black;
+                    border-bottom: 1px solid #cfcfcf;
+                    font-size: 18px;
+                    padding: 12px;
+                }
+            }
+            .nav-items:active {
+                a {
+                    // background-color: #2196f3;
+                }
+            }
+        }
+        .active {
+            background-color: #294481;
+            border-radius: 10px;
+            color: white !important;
+            a {
+                color: white !important;
+            }
+        }
+    }
+}
+.radius {
+    border: 1px solid rgba(0, 0, 0, 0.205) !important;
+    border-radius: 20px;
+    color: #999999;
+}
+
+.new1 {
+    color: black;
+    border-bottom: 1px solid #cfcfcf;
+    font-size: 18px;
+    padding: 12px;
+}
+
+.myclass {
+    .accordion-button::after {
+        content: "";
+        display: none;
+    }
+
+    .accordion-button::before {
+        width: 34px;
+        height: 34px;
+        content: "";
+        background-color: #294481;
+        border-radius: 8px;
+        background-image: url(../js/images/icons/maximize-sign.png);
+        background-repeat: no-repeat;
+        background-size: 19px;
+        background-position: calc(118% - 9.5px) calc(120% - 9.5px);
+        transition: var(--bs-accordion-btn-icon-transition);
+        box-shadow: 0px 20px 20px 0px rgba(55, 132, 166, 0.2);
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        content: "";
+        display: none;
+    }
+
+    .accordion-button:not(.collapsed)::before {
+        background-image: url(../js/images/icons/minimize-sign.png);
+        background-position: center;
+        background-size: 12px;
+        transition: var(--bs-accordion-btn-icon-transition);
+        // Add this line to keep the background color the same
+        background-color: #294481;
+    }
+}
+
+.custom2 {
+    background-color: #294481;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -56px;
+    top: 100px;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+
+    .btn-close {
+        background-color: #f2f2f2;
+        color: $primary !important;
+        padding: 8px;
+        opacity: 1;
+        background-image: url("data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2016'%20fill='%233784a6'%3e%3cpath%20d='M.293.293a1%201%200%200%201%201.414%200L8%206.586%2014.293.293a1%201%200%201%201%201.414%201.414L9.414%208l6.293%206.293a1%201%200%200%201-1.414%201.414L8%209.414l-6.293%206.293a1%201%200%200%201-1.414-1.414L6.586%208%20.293%201.707a1%201%200%200%201%200-1.414z'%3e%3c/path%3e%3c/svg%3e");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 16px;
+    }
+}
+.border-black {
+    border-bottom-color: #afcedb !important;
+}
+.img-card {
+    background-color: #095678;
+}
+.w2-icon {
+    width: 32px;
+    height: 40px;
+}
+.w3-icon {
+    width: 35px;
+    height: 76px;
+}
+.w4-icon {
+    width: 24px;
+    height: 35px;
+}
+.w5-icon {
+    width: 90px;
+    height: 40px;
+}
+.name-tag {
+    width: 40px !important;
+    height: 40px;
+    background-color: #fec738;
+    color: white;
+    border-radius: 5px;
+}
+.img-tag {
+    width: 60px !important;
+    height: 60px;
+    background-color: #4a91b0;
+    border-radius: 5px;
+}
+.img-tag2 {
+    width: 60px !important;
+    height: 60px;
+
+    border-radius: 60px;
+}
+.hvr-effect:hover {
+    background-color: #294481 !important;
+    color: white;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+
+    h6 {
+        color: white !important;
+    }
+    i {
+        color: white !important;
+    }
+    .img-tag {
+        background-color: #4a91b0 !important;
+    }
+}
+.icon-color {
+    color: #294481;
+}
+.icon-color:hover {
+    color: white !important;
+}
+
+.wallet-border-bottom {
+    border-bottom: 2px solid rgba($color: #294481, $alpha: 0.1);
+}
+.wallet-icon {
+    width: 110px;
+    height: 110px;
+}
+.btn1 {
+    height: 46px;
+}
+.tb-color {
+    color: #696868;
+}
+.card-img1 {
+    width: 12.5rem;
+    height: 12.5rem;
+}
+.card1 {
+    width: 100%;
+    height: 13.313rem;
+    background-color: #f0f6fa;
+}
+.outline-0 {
+    outline: none;
+}
+
+.form-select {
+    // background-image: url(../js/images/icons/arrowdrop.png) !important;
+    // background-size: 30px 30px !important;
+}
+.icon-dashboard {
+    width: 30px;
+    height: 30px;
+    background-color: $primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-75 {
+    left: 75%;
+}
+.detail_icons {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #e1eef5;
+
+    .img {
+        width: 20px;
+    }
+}
+
+.border-status {
+    border-left: 1px solid rgba($color: $primary, $alpha: 0.4);
+    border-right: 1px solid rgba($color: $primary, $alpha: 0.4);
+}
+
+.about-modal {
+    .modal {
+        border-radius: 50px;
+        background-color: white !important;
+        border: none !important;
+    }
+}
+
+.experience-modal {
+    .form-group {
+        .dp__input_wrap {
+            .dp__pointer {
+                border: 1px solid rgba(0, 0, 0, 0.3) !important;
+                border-radius: 20px !important;
+                min-height: 55px !important;
+            }
+        }
+    }
+}
+
+.book-services {
+    .carousel .carousel__prev {
+        margin-left: 40px !important;
+    }
+
+    .carousel .carousel__next {
+        margin-right: 40px !important;
+    }
+    .form-wizard-vue .fw-body-list .fw-list-progress {
+        position: absolute;
+        width: 21% !important;
+        height: 8.47px;
+        background: #eff0f7;
+        top: 49% !important;
+        left: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    // .doctor-profile-img{
+    //     height: auto;
+    //     width: auto;
+    // }
+
+    .head-img {
+        width: 350px;
+        margin-top: 10px;
+    }
+
+    .profile {
+        height: 250px;
+    }
+
+    .bar-search-doctor {
+        height: 360px;
+
+        .bar {
+            height: 187px;
+        }
+    }
+
+    .mb-6 {
+        margin-bottom: 50px;
+    }
+
+    .start-75 {
+        left: 48%;
+    }
+
+    .top-50 {
+        top: 20% !important;
+    }
+}
+
+.ehr-multiselect {
+    width: 30%;
+}
+
+.home-faqs-text {
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    color: $primary;
+}
+
+.right-sidebar {
+    .form-select {
+        width: 330px;
+    }
+}
+.dob-picker {
+    .dp__menu {
+        width: 50% !important;
+        top: 15px !important;
+    }
+    .dp__input_wrap {
+        border: 0 !important;
+        .dp__pointer {
+            box-shadow: none !important;
+            border: 0 !important;
+        }
+    }
+
+    .dob-pick {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 20px !important;
+        font-size: 18px;
+        padding: 7px;
+    }
+}
+
+
+.clinic-img-list{
+    width: 100%;
+    height: 240px;
+}
+@media (max-width: 1200px) {
+    .megamenu {
+        width: 90%; /* Adjust width for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .right-sidebar {
+        .form-select {
+            width: 100%;
+        }
+    }
+    .home-faqs-accord {
+        --bs-accordion-btn-icon-width: 20px !important;
+    }
+    .mobile-dropdown,
+    .navbar-nav {
+        .active {
+            color: $primary !important;
+        }
+    }
+
+    .home-faqs-text {
+        font-size: 16px;
+    }
+
+    .ehr-listing {
+        .col-md-4 {
+            border: 0 !important;
+        }
+
+        .ehr-multiselect {
+            width: 100%;
+        }
+    }
+    .megamenu {
+        width: 100%; /* Full width for small screens */
+    }
+    .wallet-icon {
+        width: 112px;
+    }
+
+    .border-status {
+        border: none;
+    }
+}

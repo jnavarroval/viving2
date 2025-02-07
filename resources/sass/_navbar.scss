@@ -1,0 +1,42 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    height: 92px;
+    top: 0;
+
+    // &.sticky {
+    //     background-color: #e7f4fc;
+    // }
+
+    .navbar-nav {
+        align-items: center;
+    }
+
+    .nav-item {
+        margin-right: 1rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        .nav-link {
+            font-size: 1.08rem;
+            color: black;
+            font-weight: normal;
+
+            &:hover {
+                color: rgba(0, 0, 0, 0.7);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .login-nav {
+        .btn {
+            background-color: white;
+            color: $primary;
+        }
+    }
+}

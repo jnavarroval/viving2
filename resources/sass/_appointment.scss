@@ -1,0 +1,170 @@
+#appointmentTab {
+    .nav-item {
+        position: relative;
+        padding-right: 64px;
+
+        .nav-link {
+            background-color: transparent;
+            color: #75726d;
+            font-size: 16px;
+            border: none;
+            font-weight: 600;
+
+            // .bi {
+            //     display: none;
+            // }
+
+            .numric {
+                display: none;
+            }
+
+            &.active {
+                color: #913688;
+
+                .numric {
+                    display: block;
+                }
+
+                .bi {
+                    display: none;
+                }
+            }
+        }
+
+        // &::after {
+        //     content: "";
+        //     width: 64px;
+        //     display: flex;
+        //     height: 1px;
+        //     background: #BCB7B0;
+        //     position: absolute;
+        //     top: 50%;
+        //     right: 0;
+        //     margin-top: 5px;
+        // }
+
+        &:last-child {
+            padding-right: 0;
+            &::after {
+                content: none;
+            }
+        }
+    }
+}
+
+.lists {
+    min-height: 189px;
+    max-height: 120px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+    .li {
+        width: 160px;
+        height: 46px;
+
+        .btn {
+            width: 142px;
+            height: 46px;
+            font-size: 16px;
+            background-color: #e1eef5;
+            color: black;
+
+            // &:focus {
+            //     background-color: $primary !important;
+            //     color: white !important;
+            //     transition: all 1ms ease-in !important;
+            // }
+        }
+    }
+}
+.clinic-pic {
+    width: 60px;
+    height: 55px;
+}
+.payment-icons {
+    width: 160px;
+    height: 90px;
+    border: 1px solid lightgrey;
+}
+
+.generate-appointment {
+    .multiselect {
+        border: 1px solid rgba(0, 0, 0, 0.3) !important;
+        border-radius: 20px !important;
+        min-height: 50px !important;
+
+        .multiselect-search {
+            background: transparent;
+        }
+
+        .multiselect-tag {
+            background-color: #294481;
+            border-radius: 100px;
+            height: 37px;
+            /* padding: 0px 11px; */
+            /* display: flex; */
+            /* justify-content: center; */
+            font-size: 18px;
+            padding-left: 15px;
+            padding-right: 8px;
+        }
+    }
+
+    .form-group {
+        margin-bottom: 25px;
+        label {
+            font-size: 18px;
+            font-weight: normal;
+            color: black;
+            margin-bottom: 18px;
+        }
+        .form-control,
+        .form-select {
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            height: 50px;
+            font-size: 18px;
+            scrollbar-width: none;
+        }
+
+        .form-select {
+            background-image: url(../js/images/icons/selectinput.svg) !important;
+            background-size: 15px 15px !important;
+        }
+    }
+}
+@media screen and (max-width: 844px) {
+    #appointmentTab {
+        .nav-item {
+            padding-right: 0px;
+        }
+    }
+    .continue {
+        width: 100%;
+    }
+    .payment-icons {
+        width: 260px;
+        height: 120px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .lists {
+        padding: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .lists {
+        .li {
+            width: 152px;
+            height: 46px;
+        }
+    }
+
+    .book-btn {
+        .pt-6 {
+            padding: 0;
+        }
+    }
+}

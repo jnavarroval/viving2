@@ -1,0 +1,58 @@
+.footer {
+    background:  $primary;
+    color: white;
+    .nav-link {
+        &:hover {
+            text-decoration: underline;
+            transition: 200ms all ease-in;
+        }
+
+        font-weight: 400;
+        line-height: 2.188rem;
+    }
+
+    .footer-margin {
+        margin-left: 60px;
+    }
+    // .footer-link:hover{
+    //     .nav-link{
+    //         color: white;
+    //     }
+    //     ul > li::marker{
+    //         color: $primary;
+    //     }
+    // }
+
+    .social-contact-icons {
+        .bi {
+            color: white;
+            font-size: 1.125rem;
+            line-height: 1.625rem;
+        }
+
+        .span {
+            font-weight: 400;
+        }
+    }
+}
+.btn-sup {
+    width: 206px;
+    height: 58px;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        .footer-margin {
+            margin-left: 0px;
+        }
+
+        .px-6 {
+            padding: 0;
+            padding-left: 10px;
+        }
+    }
+}
